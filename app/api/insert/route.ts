@@ -1,6 +1,6 @@
 // app/api/insert/route.ts
 import { NextResponse } from "next/server";
-import { db } from "@/app/firebase";
+import { db } from "../../firebase";
 import { ref, get, set, onValue } from "firebase/database";
 
 export const dynamic = 'force-dynamic'; // Disable caching
